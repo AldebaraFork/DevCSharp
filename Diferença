@@ -1,0 +1,20 @@
+using System;
+using System.ComponentModel.Design;
+using System.Diagnostics.CodeAnalysis;
+using System.IO.Pipes;
+using System.Security.Cryptography;
+using System.Globalization;
+
+            int A, B, C, D, dif;
+
+            A = int.Parse(Console.ReadLine());
+            B = int.Parse(Console.ReadLine());
+            C = int.Parse(Console.ReadLine());
+            D = int.Parse(Console.ReadLine());
+
+            dif = A * B - C * D;
+
+            Console.WriteLine("DIFERENCA = " + dif);
+        }
+    }
+}
