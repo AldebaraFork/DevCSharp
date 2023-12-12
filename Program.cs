@@ -12,14 +12,24 @@ Console.WriteLine("Ola bem vindo! Por favor Insira seu nome: ");
 string[] dados = Console.ReadLine().Split(' ');
 
 string nome = dados[0];
-Console.WriteLine("Otimo! Seja bem vindo(a) " + nome + " Porfavor insira sua idade: ");
-int idade = int.Parse(Console.ReadLine());
-if (idade >= 18)
-{
-    Console.WriteLine("Seja bem Vindo! Pode utilizar nossa plataforma a vontade! ");
-}
-else
-{
-    Console.WriteLine("Opa! parece que voce é de menor, voce possui apenas " + idade);
-}
 
+Console.WriteLine("Digite a nota do primeiro bimestre: ");
+double PrimeiraNota = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+Console.WriteLine("Digite a segunda nota do bimestre: ");
+double SegundaNota = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+Console.WriteLine("Digite a Terceira nota do Bimestre: ");
+
+
+
+double NotasBimestre = PrimeiraNota + SegundaNota / 2;
+
+if (NotasBimestre < 75.00)
+{
+    Console.WriteLine("Voce foi reprovado, Agende sua reaplicação da prova! ");
+
+}
+else 
+{
+    Console.WriteLine("Parabens! Voce foi aprovado(a) com nota " + NotasBimestre.ToString("F1",CultureInfo.InvariantCulture));
+}
+        
