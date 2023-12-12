@@ -7,29 +7,19 @@ using System.Security.Cryptography;
 using System.Globalization;
 using System.Xml.Schema;
 
-
-Console.WriteLine("Ola bem vindo! Por favor Insira seu nome: ");
-string[] dados = Console.ReadLine().Split(' ');
-
-string nome = dados[0];
-
-Console.WriteLine("Digite a nota do primeiro bimestre: ");
-double PrimeiraNota = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
-Console.WriteLine("Digite a segunda nota do bimestre: ");
-double SegundaNota = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
-Console.WriteLine("Digite a Terceira nota do Bimestre: ");
+double conta;
+int TempoBasico;
+double juros;
 
 
+TempoBasico = int.Parse(Console.ReadLine());
 
-double NotasBimestre = PrimeiraNota + SegundaNota / 2;
+conta = 50.0;
 
-if (NotasBimestre < 75.00)
+if (TempoBasico > 100)
 {
-    Console.WriteLine("Voce foi reprovado, Agende sua reaplicação da prova! ");
-
+    juros = conta + (TempoBasico - 100) * 2;
+    Console.WriteLine("Valor a pagar: " + juros);
 }
-else 
-{
-    Console.WriteLine("Parabens! Voce foi aprovado(a) com nota " + NotasBimestre.ToString("F1",CultureInfo.InvariantCulture));
-}
-        
+else if (TempoBasico < 100)
+    Console.WriteLine("Valor a pagar: " + conta);
