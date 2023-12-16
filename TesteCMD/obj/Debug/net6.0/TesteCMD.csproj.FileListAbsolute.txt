@@ -1,0 +1,14 @@
+C:\C#\projeto1\TesteCMD1\TesteCMD\bin\Debug\net6.0\TesteCMD.exe
+C:\C#\projeto1\TesteCMD1\TesteCMD\bin\Debug\net6.0\TesteCMD.deps.json
+C:\C#\projeto1\TesteCMD1\TesteCMD\bin\Debug\net6.0\TesteCMD.runtimeconfig.json
+C:\C#\projeto1\TesteCMD1\TesteCMD\bin\Debug\net6.0\TesteCMD.dll
+C:\C#\projeto1\TesteCMD1\TesteCMD\bin\Debug\net6.0\TesteCMD.pdb
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.AssemblyInfoInputs.cache
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.AssemblyInfo.cs
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.csproj.CoreCompileInputs.cache
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.dll
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\refint\TesteCMD.dll
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.pdb
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\TesteCMD.genruntimeconfig.cache
+C:\C#\projeto1\TesteCMD1\TesteCMD\obj\Debug\net6.0\ref\TesteCMD.dll
